@@ -224,14 +224,68 @@ form input[type="checkbox"] {
 form button {
     width: 120px;
     height: 32px;
-
-
     background-color: #E5261B;
     color: #FBFAFA;
-
     letter-spacing: 0.3em;
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
-
     border: none;
+}
+
+/*TECH GEAR PAGE*/
+.tech-heading {
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.wrap {
+    display: flex;
+    gap: 40px;
+    max-width: 1500px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.wrap li {
+    border: 3px solid #A7C1E0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    color: #E5261B;
+}
+
+.wrap a {
+    text-decoration: none;
+    color: #E5261B;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.wrap img {
+    width: 550px;
+    flex: 1;
+}
+
+/*IMAGES PAGE*/
+.images-heading{
+    font-size: 3em;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-left: 200px;
+
+}
+.image-wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+
+}
+.image-wrapper img{
+    width: 300px;
+    height: 200px;
+    flex: 1 1 auto;
+
 }
